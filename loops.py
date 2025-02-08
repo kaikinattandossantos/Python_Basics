@@ -1,2 +1,13 @@
-for index in range(5):
-     print(index)
+
+teams = { 
+     "Colorado": "Rockies",
+     "Chicago": "White Sox",
+     "Boston": "Red Sox",
+     "Minnesota": "Twins",
+     "Milwaukee": "Brewers",
+     "Seattle": "Mariners",
+    }
+
+for team in teams.values():
+     print(team)
+
